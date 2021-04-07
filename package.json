@@ -1,0 +1,26 @@
+{
+  "name": "vttyrelay",
+  "version": "1.0.0",
+  "description": "relays the tty over TCP",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1e1001/vttyrelay.git"
+  },
+  "keywords": [
+    "tty"
+  ],
+  "author": "1e1001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1e1001/vttyrelay/issues"
+  },
+  "homepage": "https://github.com/1e1001/vttyrelay#readme",
+  "dependencies": {
+    "node-key-sender": "^1.0.11"
+  }
+}
